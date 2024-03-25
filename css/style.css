@@ -13,6 +13,15 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
         STYLE CONTENT
 --------------------------- */
 /* HEADER • MENÙ */
+.menu-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 100;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 li {list-style-type: none;}
 a {text-decoration: none;}
 
@@ -29,8 +38,59 @@ img.logo-img {width: 50%;}
 
 .header-icons{
     width: 5%;
-    
+
     filter: invert(100%);
+}
+
+/* MAIN • CARD */
+.images {position: relative;}
+.card img {width: 100%;}
+
+.hover-img {display: none;}
+
+.card:hover .hover-img {display: block;}
+.card:hover .defoult-img {display: none;}
+
+.discount {
+    position: absolute;
+    left: 5px;
+    bottom: 25px;
+    font-size: 13px;
+}
+
+/* DISCOUNT */
+.percent {
+    background-color: rgb(237, 58, 52);
+    color: white;
+    padding: 3px;
+}
+
+.tenability {
+    background-color: rgb(57, 130, 29);
+    color: white;
+    padding: 3px;
+    margin-right: 3px;
+}
+
+/* CUORICINO */
+.heart {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    font-size: 25px;
+    background-color: white;
+    padding: 3px 10px;
+}
+
+.heart:hover {color: red;}
+
+/* TESTO CARD */
+.brand {
+    font-size: 12px;
+}
+
+.new-price, .old-price {
+    font-size: 12px;
 }
 
 
@@ -55,6 +115,7 @@ img.logo-img {width: 50%;}
 /* ---------------------------
             UTILITY 
 --------------------------- */
+
 .jc-center {justify-content: center;}
 .ai-center {align-items: center;}
 
@@ -62,6 +123,7 @@ img.logo-img {width: 50%;}
 .my-25 {margin: 25px 0;}
 .my-35 {margin: 35px 0;}
 .my-50 {margin: 50px 0;}
+.mt-120 {margin-top: 120px;}
 
 .mx-10 {margin: 0 10px;}
 .mx-25 {margin: 0 25px;}
