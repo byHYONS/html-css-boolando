@@ -101,7 +101,25 @@ img.logo-img {width: 50%;}
 
 .old-price {text-decoration: line-through;}
 
+/* FOOTER */
+.footer {
+    color: white;
+    height: 100px;
+    background-color: rgb(26, 26, 26);
+    border-top: 2px solid rgb(237, 58, 52);
+}
 
+.footer a {
+    margin-right: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.footer-icons {
+    width: 5%;
+    filter: invert(100%);
+    margin-top: 10px;
+}
 
 /* ---------------------------
         UTILITY • LAYOUT
@@ -119,7 +137,7 @@ img.logo-img {width: 50%;}
     flex-wrap: wrap;
 }
 
-.coll-50 {width: 50%;}
+.coll-50 {width: calc(50% - 10px);}
 
 .coll-33 {width: calc(100% / 3 - 10px);}
 
@@ -127,6 +145,7 @@ img.logo-img {width: 50%;}
 /* ---------------------------
             UTILITY 
 --------------------------- */
+.display-ib {display: inline-block;}
 
 .jc-center {justify-content: center;}
 .ai-center {align-items: center;}
