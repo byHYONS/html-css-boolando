@@ -1,5 +1,5 @@
 /* ---------------------------
-            reset
+            RESET
 --------------------------- */
 * {
     margin: 0;
@@ -8,4 +8,83 @@
 }
 
 body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+/* ---------------------------
+        STYLE CONTENT
+--------------------------- */
+/* HEADER • MENÙ */
+li {list-style-type: none;}
+a {text-decoration: none;}
+
+a.gender {
+    color: white;
+    font-size: 13px;
+}
+
+li {display: inline-block;}
+
+.logo{text-align: center;}
+
+img.logo-img {width: 50%;}
+
+.header-icons{
+    width: 5%;
+    
+    filter: invert(100%);
+}
+
+
+/* ---------------------------
+        UTILITY • LAYOUT
+--------------------------- */
+.container-full {width: 100%;}
+
+.container {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coll-33 {width: calc(100% / 3 - 10px);}
+
+
+/* ---------------------------
+            UTILITY 
+--------------------------- */
+.jc-center {justify-content: center;}
+.ai-center {align-items: center;}
+
+.my-10 {margin: 10px 0;}
+.my-25 {margin: 25px 0;}
+.my-35 {margin: 35px 0;}
+.my-50 {margin: 50px 0;}
+
+.mx-10 {margin: 0 10px;}
+.mx-25 {margin: 0 25px;}
+.mx-35 {margin: 0 35px;}
+
+.py-10 {padding: 10px 0;}
+.py-15 {padding: 15px 0;}
+.py-25 {padding: 25px 0;}
+.py-35 {padding: 35px 0;}
+
+.px-10 {padding: 0 10px;}
+.px-25 {padding: 0 25px;}
+.px-35 {padding: 0 35px;}
+
+.ht-50 {height: 50px;}
+
+.ta-center {text-align: center;}
+.ta-right {text-align: right;}
+.ta-left {text-align: left;}
+
+/* ---------------------------
+      BACKGROUND & COLOR
+--------------------------- */
+.bg-header {background-color: rgb(240, 104, 55);}
+.bg-footer {background-color: rgb(26, 26, 26);}
 
