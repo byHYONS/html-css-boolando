@@ -48,7 +48,7 @@ img.logo-img {width: 50%;}
 
 .hover-img {display: none;}
 
-.card:hover .hover-img {display: block;}
+.card:hover .hover-img {display: inline-block;}
 .card:hover .defoult-img {display: none;}
 
 .discount {
@@ -92,6 +92,14 @@ img.logo-img {width: 50%;}
 .new-price, .old-price {
     font-size: 12px;
 }
+
+.new-price {
+    font-weight: 600;
+    color: rgb(237, 58, 52);
+}
+
+.old-price {text-decoration: line-through;}
+
 
 
 /* ---------------------------
