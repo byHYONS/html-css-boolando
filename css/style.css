@@ -25,7 +25,7 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 li {list-style-type: none;}
 a {text-decoration: none;}
 
-a.gender {
+.gender {
     color: white;
     font-size: 13px;
 }
@@ -132,10 +132,11 @@ img.logo-img {width: 50%;}
 }
 
 .d-flex {
-    gap: 10px;
     display: flex;
     flex-wrap: wrap;
 }
+
+.gap {gap: 10px;}
 
 .coll-50 {width: calc(50% - 10px);}
 
@@ -148,6 +149,7 @@ img.logo-img {width: 50%;}
 .display-ib {display: inline-block;}
 
 .jc-center {justify-content: center;}
+.jc-between {justify-content: space-between;}
 .ai-center {align-items: center;}
 
 .my-10 {margin: 10px 0;}
